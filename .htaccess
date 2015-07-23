@@ -1,0 +1,8 @@
+# Prevent Directoy listing 
+Options -Indexes
+
+# Prevent Direct Access to files
+<FilesMatch "\.(tpl|log)">
+	Order deny,allow
+	Deny from all
+</FilesMatch>

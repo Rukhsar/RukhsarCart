@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.table {
+	width: 100%;
+	border: 1px solid #DFDFDF;
+	background-color: #DFDFDF;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	color: #464646;
+}
+
+.table tbody tr {
+	background: #FFF;
+}
+
+.table tfoot tr {
+	background: #FFF;
+}
+
+.table tbody tr:nth-child(odd) { background-color: #FFF; }
+.table tbody tr:nth-child(even) { background-color:#E6E6E6; }
+.table tbody tr.odd { background-color: #FFF; }
+.table tbody tr.even { background-color:#E6E6E6; }
+
+.table tbody td, .table th {
+	line-height: 30px;
+	padding: 5px 5px;
+	color: #000;
+}
+
+.table tbody td img {
+	vertical-align: middle;
+}
+
+.table th {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.table td a {
+	color: #666;
+	text-decoration: none; 
+}
